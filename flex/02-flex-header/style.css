@@ -1,4 +1,11 @@
 .header  {
+  padding: 10px;
+  display: flex;
+  /* Espaça os 3 elementos na primeira linha */
+  justify-content: space-between;
+  /* Centraliza os elementos -> Eles ficam meio pra cima */
+  align-items: center;
+  
   font-family: monospace;
   background: papayawhip;
 }
@@ -12,6 +19,12 @@
 }
 
 ul {
+  display: flex;
+  /* Espaça os elementos 1,2,3 e 4,5,6 */
+  gap: 10px; 
+  margin: 0;
+  padding: 0;
+
   /* this removes the dots on the list items*/
   list-style-type: none;
 }
